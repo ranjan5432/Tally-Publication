@@ -1,2 +1,2 @@
 # Tally-Publication
-Live Preview:- http://stagingdemo.in/tally/
+Live Preview:- <a href="http://stagingdemo.in/tally/" target="_blank">Click here</a>
