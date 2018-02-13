@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tally Design</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="tally_container">
+			<div class="header_top">
+				<ul>
+					<li><a href="tel:9876543210"><img src="images/phone.png"> <span>+91 9876543210</span></a></li>
+					<li><a href="mailto:tallygstbooks@gmail.com"><img src="images/mail.png"> <span>tallygstbooks@gmail.com</span></a></li>
+				</ul>
+			</div>
+            
+
+			<nav>
+				<div id="logo">
+					<a href="index.html"><img src="images/logo.png"></a>
+				</div>
+                 <div id="nav_icon"><span class="	fa fa-navicon"></span></div>
+				<ul id="navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about-us.html">About us</a></li>
+					<li id="dropmenu_btn"><a href="" onclick="return false">Tally Books</a>
+						<ul class="drop-menu">
+							<li><a href="gst-using-tally-erp-9.html">GST Using Tally.ERP 9</a></li>
+							<li><a href="tally-ace.html">Tally ACE</a></li>
+							<li><a href="tally-guru-vol.1.html">Tally Guru Vol.1</a></li>
+							<li><a href="tally-guru-vol.2.html">Tally Guru Vol.2</a></li>
+							<li><a href="tally-pro-vol.1.html">Tally PRO Vol.1</a></li>
+							<li><a href="tally-pro-vol.2.html">Tally PRO Vol.2</a></li>						
+						</ul>
+					</li>
+					<li><a href="blog/">Blog</a></li>
+					<li class="active"><a href="career.html">Career</a></li>
+					<li class="lst-nav"><a href="contact-us.html">Contact us</a></li>
+				</ul>
+			</nav>
+	</div>
+	</header><!-- end of header-->
+
+
+<div class="template_part">
+	<div class="tally_container">
+			<div class="brctrm">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>Career</li>
+				</ul>
+			</div>
+
+			<div class="template_content" style="padding-left: 20px;padding-right: 20px;">
+				<p class="tally_head">Career</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+	</div><!-- end of tally_container-->
+</div><!-- end of section1-->
+
+
+
+<!-- Trigger the modal with a button -->
+<button type="button" id="fixed_btn" data-toggle="modal" data-target="#myModal">Enquiry Now</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+       	<div class="enq_form">
+					<p>Contact us! <span class="close" data-dismiss="modal">&times;</span></p> 
+					<form action="mailer1.php" method="post">
+						<input type="text" name="name" placeholder="Name" required>
+						<input type="email" name="email" placeholder="Email" required>
+						<input type="text" name="number" placeholder="Mobile no" required>
+						<textarea rows="4" placeholder="Message" name="message" required></textarea>
+						<button type="submit">Send Message</button>
+					</form>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+    
+<!-- feedback form -->
+ 	<div class="feedback_form is-hidden">
+                 <button id="feedback_btn">Feedback form</button>
+                <div id="feedback_box">
+                <span id="close_feedback"><i class="fa fa-close"></i></span>
+                <form action="mailer4.php" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea rows="4" placeholder="Message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                </div>
+        </div>
+    
+<!--footer-->
+
+<footer>
+	<div class="tally_container">
+		<div class="footer_sec">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Products</a></li>
+				<li><a href="">Blog</a></li>
+				<li><a href="">Career</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="footer_sec midd_footer">
+			<ul>
+				<li>Tallygstbooks</li>
+				<li><a href="">Tallygstbooks in Chennai</a></li>
+				<li><a href="">Tallygstbooks in Bangalore</a></li>
+				<li><a href="">Tallygstbooks in Mumbai</a></li>
+				<li><a href="">Tallygstbooks in Hyderabad</a></li>
+				<li><a href="">Tallygstbooks in Pune</a></li>
+			</ul>
+		</div>
+		<div class="footer_sec">
+			<ul>
+				<li>Address</li>
+			</ul>
+			<p>526, North-east carrom street,
+				uragur south division, <br>
+				bangalore - 563320
+			</p>
+
+			<ul class="social_icons">
+				<li><a href=""><span class="fa fa-facebook"></span></a></li>
+				<li><a href=""><span class="fa fa-instagram"></span></a></li>
+				<li><a href=""><span class="fa fa-twitter"></span></a></li>
+				<li><a href=""><span class="fa fa-google-plus"></span></a></li>
+			</ul>
+
+			<div class="footer_logo">
+				<img src="images/footer-logo.png">
+			</div>
+		</div>
+	</div><!-- end of tally-container-->
+
+	<div class="copyright_sec">
+		<p>Copyright &copy; 2017. Tallygstbooks Pvt. Ltd</p>
+	</div>
+</footer>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/thumnail-slider.js"></script>
+    <script src="js/main-script.js"></script>
+</body>
+</html>
